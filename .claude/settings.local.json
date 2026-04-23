@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PATH=\"/c/Users/guyb/AppData/Roaming/npm:$PATH\")",
+      "Bash(pnpm install *)",
+      "Bash(pnpm dev *)",
+      "Bash(cat \"C:\\\\\\\\Users\\\\\\\\guyb\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-guyb-fit\\\\\\\\b8c5d085-f5a0-4ff6-af3b-b7929e3059a4\\\\\\\\tasks\\\\\\\\bf8jl4sd2.output\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:5173/)"
+    ]
+  }
+}
