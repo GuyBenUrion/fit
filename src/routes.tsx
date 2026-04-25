@@ -1,7 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import AppShell from '@/components/layout/AppShell';
-import ProtectedRoute from '@/components/layout/ProtectedRoute';
-import Login from '@/pages/Login';
 import Today from '@/pages/Today';
 import Schedule from '@/pages/Schedule';
 import Log from '@/pages/Log';
@@ -14,16 +12,8 @@ import SessionRunner from '@/pages/SessionRunner';
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
-
-      <Route
-        element={
-          <ProtectedRoute>
-            <AppShell />
-          </ProtectedRoute>
-        }
-      >
-        <Route index element={<Navigate to="/today" replace />} />
+      <Route element={<AppShell />}>
+        <Route index element={<Navigate to="/exercises" replace />} />
         <Route path="/today" element={<Today />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/log" element={<Log />} />
@@ -34,7 +24,7 @@ export default function AppRoutes() {
         <Route path="/session" element={<SessionRunner />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/today" replace />} />
+      <Route path="*" element={<Navigate to="/exercises" replace />} />
     </Routes>
   );
 }
