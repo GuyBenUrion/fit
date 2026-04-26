@@ -1,10 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ChevronDown, Clock } from 'lucide-react';
-import {
-  intensityLabels,
-  routineGroupLabels,
-  routines,
-} from '@/lib/routines';
+import { intensityLabels, routineGroupLabels } from '@/lib/routines';
+import { useRoutines } from '@/lib/useRoutines';
 import type { Routine, RoutineGroup } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -24,13 +21,14 @@ const intensityBadgeClass: Record<Routine['intensity'], string> = {
 
 export default function Routines() {
   const [openId, setOpenId] = useState<string | null>(null);
+  const routines = useRoutines();
 
   const grouped = useMemo(() => {
     const out = new Map<RoutineGroup, Routine[]>();
     for (const g of groupOrder) out.set(g, []);
     for (const r of routines) out.get(r.group)?.push(r);
     return out;
-  }, []);
+  }, [routines]);
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">

@@ -13,8 +13,8 @@ import {
   intensityBadgeClass,
   intensityLabels,
   routineGroupLabels,
-  routines,
 } from '@/lib/routines';
+import { useRoutines } from '@/lib/useRoutines';
 import type { Routine, RoutineGroup } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -111,13 +111,14 @@ type Mode = { kind: 'browse' } | RunningMode | CompleteMode;
 
 export default function Exercises() {
   const [mode, setMode] = useState<Mode>({ kind: 'browse' });
+  const routines = useRoutines();
 
   useEffect(() => {
     if (mode.kind === 'browse') return;
     if (!routines.find((r) => r.id === mode.routineId)) {
       setMode({ kind: 'browse' });
     }
-  }, [mode]);
+  }, [mode, routines]);
 
   if (mode.kind === 'browse') {
     return (
@@ -160,13 +161,14 @@ interface BrowseViewProps {
 
 function BrowseView({ onStart }: BrowseViewProps) {
   const [openId, setOpenId] = useState<string | null>(null);
+  const routines = useRoutines();
 
   const grouped = useMemo(() => {
     const out = new Map<RoutineGroup, Routine[]>();
     for (const g of groupOrder) out.set(g, []);
     for (const r of routines) out.get(r.group)?.push(r);
     return out;
-  }, []);
+  }, [routines]);
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
