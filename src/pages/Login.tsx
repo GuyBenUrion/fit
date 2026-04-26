@@ -5,12 +5,15 @@ import { Input } from '@/components/ui/input';
 import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 import { useAppStore } from '@/store/useAppStore';
 
-type Status = 'idle' | 'sending' | 'sent' | 'error';
+type Mode = 'signin' | 'signup';
+type Status = 'idle' | 'submitting' | 'error';
 
 export default function Login() {
   const session = useAppStore((s) => s.session);
   const authLoading = useAppStore((s) => s.authLoading);
+  const [mode, setMode] = useState<Mode>('signin');
   const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [status, setStatus] = useState<Status>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
@@ -31,19 +34,30 @@ export default function Login() {
       );
       return;
     }
-    setStatus('sending');
+    setStatus('submitting');
     setErrorMsg(null);
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: window.location.origin + '/today' },
-    });
+
+    const { error } =
+      mode === 'signin'
+        ? await supabase.auth.signInWithPassword({ email, password })
+        : await supabase.auth.signUp({ email, password });
+
     if (error) {
       setStatus('error');
       setErrorMsg(error.message);
     } else {
-      setStatus('sent');
+      setStatus('idle');
     }
   }
+
+  const submitLabel =
+    status === 'submitting'
+      ? mode === 'signin'
+        ? 'Signing in…'
+        : 'Creating account…'
+      : mode === 'signin'
+        ? 'Sign in'
+        : 'Create account';
 
   return (
     <div className="flex min-h-dvh items-center justify-center px-4">
@@ -51,36 +65,53 @@ export default function Login() {
         <div className="space-y-2 text-center">
           <h1 className="text-2xl font-semibold tracking-tight">StretchPlanner</h1>
           <p className="text-sm text-muted-foreground">
-            Sign in with a magic link. We'll email you a one-tap login.
+            {mode === 'signin' ? 'Sign in with your email and password.' : 'Create an account.'}
           </p>
         </div>
 
-        {status === 'sent' ? (
-          <div className="rounded-md border bg-secondary p-4 text-sm">
-            Check your inbox for <span className="font-medium">{email}</span>. Click the link to
-            sign in.
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="space-y-3">
-            <Input
-              type="email"
-              required
-              autoComplete="email"
-              placeholder="you@example.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              disabled={status === 'sending'}
-            />
-            <Button type="submit" className="w-full" disabled={status === 'sending'}>
-              {status === 'sending' ? 'Sending…' : 'Send magic link'}
-            </Button>
-            {errorMsg && (
-              <p className="text-sm text-destructive" role="alert">
-                {errorMsg}
-              </p>
-            )}
-          </form>
-        )}
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <Input
+            type="email"
+            required
+            autoComplete="email"
+            placeholder="you@example.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            disabled={status === 'submitting'}
+          />
+          <Input
+            type="password"
+            required
+            minLength={6}
+            autoComplete={mode === 'signin' ? 'current-password' : 'new-password'}
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            disabled={status === 'submitting'}
+          />
+          <Button type="submit" className="w-full" disabled={status === 'submitting'}>
+            {submitLabel}
+          </Button>
+          {errorMsg && (
+            <p className="text-sm text-destructive" role="alert">
+              {errorMsg}
+            </p>
+          )}
+        </form>
+
+        <p className="text-center text-sm text-muted-foreground">
+          {mode === 'signin' ? "Don't have an account?" : 'Already have an account?'}{' '}
+          <button
+            type="button"
+            className="font-medium text-foreground underline-offset-4 hover:underline"
+            onClick={() => {
+              setMode(mode === 'signin' ? 'signup' : 'signin');
+              setErrorMsg(null);
+            }}
+          >
+            {mode === 'signin' ? 'Create one' : 'Sign in'}
+          </button>
+        </p>
 
         {!isSupabaseConfigured && (
           <p className="rounded-md border border-dashed p-3 text-xs text-muted-foreground">
