@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   Check,
   ChevronDown,
@@ -27,6 +28,7 @@ const groupOrder: RoutineGroup[] = [
   'kb_only',
   'kb_bodyweight',
   'gym',
+  'lower_body',
 ];
 const REST_SEC = 30;
 
@@ -115,6 +117,7 @@ type Mode = { kind: 'browse' } | RunningMode | CompleteMode;
 export default function Exercises() {
   const [mode, setMode] = useState<Mode>({ kind: 'browse' });
   const routines = useRoutines();
+  const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     if (mode.kind === 'browse') return;
@@ -122,6 +125,26 @@ export default function Exercises() {
       setMode({ kind: 'browse' });
     }
   }, [mode, routines]);
+
+  useEffect(() => {
+    const requestedId = searchParams.get('routineId');
+    if (!requestedId) return;
+    if (mode.kind !== 'browse') return;
+    if (routines.length === 0) return;
+    const target = routines.find((r) => r.id === requestedId);
+    if (target) {
+      setMode({
+        kind: 'running',
+        routineId: target.id,
+        segmentIndex: 0,
+        startedAt: Date.now(),
+        completedSegments: new Set<number>(),
+      });
+    }
+    const next = new URLSearchParams(searchParams);
+    next.delete('routineId');
+    setSearchParams(next, { replace: true });
+  }, [searchParams, setSearchParams, routines, mode.kind]);
 
   if (mode.kind === 'browse') {
     return (

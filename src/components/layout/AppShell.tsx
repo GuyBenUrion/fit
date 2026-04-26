@@ -6,7 +6,7 @@ const navItems = [
   { to: '/today', label: 'Today', icon: Home },
   { to: '/schedule', label: 'Schedule', icon: Calendar },
   { to: '/log', label: 'Log', icon: ClipboardList },
-  { to: '/routines', label: 'Routines', icon: ListChecks },
+  // { to: '/routines', label: 'Routines', icon: ListChecks },
   { to: '/exercises', label: 'Exercises', icon: Dumbbell },
   { to: '/profile', label: 'Profile', icon: User },
 ];

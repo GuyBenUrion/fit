@@ -53,7 +53,8 @@ export type RoutineGroup =
   | 'full_body'
   | 'kb_only'
   | 'kb_bodyweight'
-  | 'gym';
+  | 'gym'
+  | 'lower_body';
 
 export interface RoutineExercise {
   name: string;

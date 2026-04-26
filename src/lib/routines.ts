@@ -1077,6 +1077,7 @@ export const routineGroupLabels: Record<Routine['group'], string> = {
   kb_only: 'KB Only',
   kb_bodyweight: 'KB + Bodyweight',
   gym: 'Gym',
+  lower_body: 'Lower Body',
 };
 
 export const intensityLabels: Record<Routine['intensity'], string> = {
