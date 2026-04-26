@@ -46,7 +46,14 @@ export interface Profile {
   created_at: string;
 }
 
-export type RoutineGroup = 'hip_mobility' | 'legs' | 'upper_body' | 'full_body';
+export type RoutineGroup =
+  | 'hip_mobility'
+  | 'legs'
+  | 'upper_body'
+  | 'full_body'
+  | 'kb_only'
+  | 'kb_bodyweight'
+  | 'gym';
 
 export interface RoutineExercise {
   name: string;

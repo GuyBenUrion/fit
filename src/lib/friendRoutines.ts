@@ -2,14 +2,14 @@ import type { Routine } from '@/lib/types';
 
 export const friendRoutines: Routine[] = [
   // ─────────────────────────────────────────────
-  // FULL-BODY KETTLEBELL (16–20)
+  // KB ONLY (16–20)
   // ─────────────────────────────────────────────
   {
     id: 'kb-foundation-builder',
     number: 16,
     name: 'KB Foundation Builder',
     durationMin: 40,
-    group: 'full_body',
+    group: 'kb_only',
     intensity: 'medium',
     whenToDo:
       'Default KB session. 2x/week if KB is your only lift, 1x/week if you also gym. The bread-and-butter day.',
@@ -96,7 +96,7 @@ export const friendRoutines: Routine[] = [
     number: 17,
     name: 'Heavy Double KB Strength',
     durationMin: 50,
-    group: 'full_body',
+    group: 'kb_only',
     intensity: 'deep',
     whenToDo:
       'Strength day. 1x/week, with at least 48h before next hard session. Use heavier of the pair.',
@@ -175,7 +175,7 @@ export const friendRoutines: Routine[] = [
     number: 18,
     name: 'KB EMOM Conditioning',
     durationMin: 30,
-    group: 'full_body',
+    group: 'kb_only',
     intensity: 'deep',
     whenToDo:
       'Conditioning day. Use a moderate KB — heavy enough to challenge, light enough that form holds. Skip if heart rate is already elevated from a prior session.',
@@ -236,7 +236,7 @@ export const friendRoutines: Routine[] = [
     number: 19,
     name: 'KB Get-Up & Carry Day',
     durationMin: 40,
-    group: 'full_body',
+    group: 'kb_only',
     intensity: 'medium',
     whenToDo:
       'The "skill" day — between heavy sessions. Lower-back-friendly, builds shoulder stability and grip without crushing the CNS.',
@@ -343,7 +343,7 @@ export const friendRoutines: Routine[] = [
     number: 20,
     name: 'KB Swing Conditioning',
     durationMin: 30,
-    group: 'full_body',
+    group: 'kb_only',
     intensity: 'deep',
     whenToDo:
       'Pure posterior chain + cardio session. Don’t do the day before deadlifts or heavy lower body.',
@@ -430,7 +430,7 @@ export const friendRoutines: Routine[] = [
     number: 21,
     name: 'KB + BW Strength Mix',
     durationMin: 45,
-    group: 'full_body',
+    group: 'kb_bodyweight',
     intensity: 'medium',
     whenToDo:
       'Default hybrid day. Pull-ups carry the upper-back work that KB alone misses — that’s the whole point of pairing them.',
@@ -524,7 +524,7 @@ export const friendRoutines: Routine[] = [
     number: 22,
     name: 'KB + BW Circuit',
     durationMin: 35,
-    group: 'full_body',
+    group: 'kb_bodyweight',
     intensity: 'deep',
     whenToDo:
       'Conditioning circuit — 4 rounds, minimal rest between exercises (60–90s rest between rounds). Picks up where straight-set days leave off.',
@@ -601,7 +601,7 @@ export const friendRoutines: Routine[] = [
     number: 23,
     name: 'KB + BW AMRAP Density',
     durationMin: 25,
-    group: 'full_body',
+    group: 'kb_bodyweight',
     intensity: 'deep',
     whenToDo:
       'Short, brutal day. AMRAP format pushes pacing skills — score it, beat it next time. Don’t stack with another conditioning session same week.',
@@ -641,7 +641,7 @@ export const friendRoutines: Routine[] = [
     number: 24,
     name: 'KB + BW Core & Carries',
     durationMin: 35,
-    group: 'full_body',
+    group: 'kb_bodyweight',
     intensity: 'medium',
     whenToDo:
       'Active accessory day between heavy sessions. Builds the trunk + grip foundation that carries every lift heavier.',
@@ -740,7 +740,7 @@ export const friendRoutines: Routine[] = [
     number: 25,
     name: 'KB + BW Athletic Power',
     durationMin: 35,
-    group: 'full_body',
+    group: 'kb_bodyweight',
     intensity: 'deep',
     whenToDo:
       'Once a week max. Explosive day — needs fresh legs and CNS. Skip if you slept badly or did anything heavy yesterday.',
@@ -817,14 +817,14 @@ export const friendRoutines: Routine[] = [
   },
 
   // ─────────────────────────────────────────────
-  // GYM FULL BODY (26–30)
+  // GYM (26–30)
   // ─────────────────────────────────────────────
   {
     id: 'gym-compound-5x5',
     number: 26,
     name: 'Gym Compound 5×5',
     durationMin: 60,
-    group: 'full_body',
+    group: 'gym',
     intensity: 'deep',
     whenToDo:
       'The strength anchor of the week. 1–2x/week max, with at least 2 days between. Add weight when you hit all 5×5 with clean form.',
@@ -892,7 +892,7 @@ export const friendRoutines: Routine[] = [
     number: 27,
     name: 'Gym Heavy Pull/Push',
     durationMin: 65,
-    group: 'full_body',
+    group: 'gym',
     intensity: 'deep',
     whenToDo:
       'Heavy day — pairs with the 5×5 day, do them at least 48h apart. Deadlift is the centerpiece, treat it like a real lift.',
@@ -954,7 +954,7 @@ export const friendRoutines: Routine[] = [
     number: 28,
     name: 'Gym Hypertrophy Full Body',
     durationMin: 60,
-    group: 'full_body',
+    group: 'gym',
     intensity: 'medium',
     whenToDo:
       'Volume day. Slot between the two heavy days — moderate weight, higher reps, less CNS cost. This is where size shows up.',
@@ -1030,7 +1030,7 @@ export const friendRoutines: Routine[] = [
     number: 29,
     name: 'Gym Athletic Conditioning',
     durationMin: 50,
-    group: 'full_body',
+    group: 'gym',
     intensity: 'deep',
     whenToDo:
       'Mixed-modal day. Power output + conditioning. Don’t do the day before heavy squat or deadlift — power cleans tax the same systems.',
@@ -1101,7 +1101,7 @@ export const friendRoutines: Routine[] = [
     number: 30,
     name: 'Gym Lower Focus + Upper Maintenance',
     durationMin: 60,
-    group: 'full_body',
+    group: 'gym',
     intensity: 'deep',
     whenToDo:
       'Use as the second leg-heavy day if running 4-day week. Lower body gets the volume; upper body gets just enough to maintain.',

@@ -10,6 +10,9 @@ const groupOrder: RoutineGroup[] = [
   'legs',
   'upper_body',
   'full_body',
+  'kb_only',
+  'kb_bodyweight',
+  'gym',
 ];
 
 const intensityBadgeClass: Record<Routine['intensity'], string> = {
