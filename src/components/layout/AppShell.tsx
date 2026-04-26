@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Calendar, ClipboardList, Dumbbell, Home, ListChecks, User } from 'lucide-react';
+import { Calendar, ClipboardList, Dumbbell, Home, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navItems = [
