@@ -165,7 +165,7 @@ export const routines: Routine[] = [
         durationSec: 180,
       },
       {
-        name: 'Pigeon pose left (same)',
+        name: 'Pigeon pose left (active — lift back knee 5x, then relax)',
         prescription: '3 min',
         type: 'time',
         durationSec: 180,
@@ -627,7 +627,7 @@ export const routines: Routine[] = [
         durationSec: 240,
       },
       {
-        name: '90/90 left — same',
+        name: '90/90 left — passive then 5 lift-offs',
         prescription: '4 min',
         type: 'time',
         durationSec: 240,

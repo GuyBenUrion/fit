@@ -30,7 +30,7 @@ const groupOrder: RoutineGroup[] = [
   'gym',
   'lower_body',
 ];
-const REST_SEC = 30;
+const REST_SEC = 90;
 
 type DrillSegment = {
   kind: 'drill';
@@ -202,7 +202,7 @@ function BrowseView({ onStart }: BrowseViewProps) {
         <h1 className="text-2xl font-semibold tracking-tight">Exercises</h1>
         <p className="text-sm text-muted-foreground">
           Pick a routine to run it. Each drill shows a timer or rep counter, with
-          30s of rest in between.
+          90s of rest in between.
         </p>
       </div>
 
