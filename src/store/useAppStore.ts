@@ -37,8 +37,6 @@ export const useAppStore = create<AppState>((set) => ({
 
   signOut: async () => {
     await supabase.auth.signOut();
-    set({ session: null, user: null });
-    console.log('123123123');
-    
+    set({ session: null, user: null }); 
   },
 }));
