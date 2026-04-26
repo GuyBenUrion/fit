@@ -13,7 +13,7 @@ const groupOrder: RoutineGroup[] = [
   'kb_only',
   'kb_bodyweight',
   'gym',
-  'lower_body',
+'lower_body',
 ];
 
 const intensityBadgeClass: Record<Routine['intensity'], string> = {

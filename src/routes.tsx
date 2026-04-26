@@ -23,7 +23,7 @@ export default function AppRoutes() {
           </ProtectedRoute>
         }
       >
-        <Route index element={<Navigate to="/exercises" replace />} />
+        <Route index element={<Navigate to="/today" replace />} />
         <Route path="/today" element={<Today />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/log" element={<Log />} />
@@ -34,7 +34,7 @@ export default function AppRoutes() {
         <Route path="/session" element={<SessionRunner />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/exercises" replace />} />
+      <Route path="*" element={<Navigate to="/today" replace />} />
     </Routes>
   );
 }
