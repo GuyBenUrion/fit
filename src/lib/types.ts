@@ -20,13 +20,36 @@ export type Intensity = 'light' | 'medium' | 'deep' | 'dynamic';
 export type LogIntensity = 'light' | 'medium' | 'heavy' | 'n/a';
 
 export type ExerciseCategory =
-  | 'hip_rotation'
-  | 'hamstring'
-  | 'adductor'
-  | 'hip_flexor'
-  | 'dynamic'
-  | 'spine'
-  | 'other';
+  | 'stretch_mobility'
+  | 'body_weight'
+  | 'gym'
+  | 'kb';
+
+export type BodyPart =
+  | 'hips'
+  | 'hip_flexors'
+  | 'hip_rotators'
+  | 'glutes'
+  | 'hamstrings'
+  | 'quads'
+  | 'adductors'
+  | 'calves'
+  | 'ankles'
+  | 'feet'
+  | 'lower_back'
+  | 'core'
+  | 'obliques'
+  | 'lats'
+  | 'mid_back'
+  | 'chest'
+  | 'shoulders'
+  | 'rear_delts'
+  | 'biceps'
+  | 'triceps'
+  | 'forearms'
+  | 'neck'
+  | 't_spine'
+  | 'full_body';
 
 export type TestResult = 'pass' | 'fail';
 export type KickHeight = 'chest' | 'shoulder' | 'head';
@@ -57,7 +80,10 @@ export type RoutineGroup =
   | 'lower_body';
 
 export interface RoutineExercise {
+  exerciseId: string;
   name: string;
+  category: ExerciseCategory;
+  bodyParts: BodyPart[];
   prescription: string;
   type: 'reps' | 'time';
   durationSec?: number;
@@ -67,7 +93,6 @@ export interface RoutineExercise {
 
 export interface Routine {
   id: string;
-  number: number;
   name: string;
   durationMin: number;
   group: RoutineGroup;

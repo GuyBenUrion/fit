@@ -1,7 +1,11 @@
 import { useMemo, useState } from 'react';
 import { ChevronDown, Clock } from 'lucide-react';
-import { intensityLabels, routineGroupLabels } from '@/lib/routines';
-import { useRoutines } from '@/lib/useRoutines';
+import {
+  intensityBadgeClass,
+  intensityLabels,
+  routineGroupLabels,
+} from '@/lib/routineLabels';
+import { useRoutines, useRoutinesLoading } from '@/lib/useRoutines';
 import type { Routine, RoutineGroup } from '@/lib/types';
 import { cn } from '@/lib/utils';
 
@@ -13,19 +17,13 @@ const groupOrder: RoutineGroup[] = [
   'kb_only',
   'kb_bodyweight',
   'gym',
-'lower_body',
+  'lower_body',
 ];
-
-const intensityBadgeClass: Record<Routine['intensity'], string> = {
-  deep: 'bg-destructive/10 text-destructive',
-  medium: 'bg-primary/10 text-primary',
-  light: 'bg-muted text-muted-foreground',
-  dynamic: 'bg-secondary text-secondary-foreground',
-};
 
 export default function Routines() {
   const [openId, setOpenId] = useState<string | null>(null);
   const routines = useRoutines();
+  const loading = useRoutinesLoading();
 
   const grouped = useMemo(() => {
     const out = new Map<RoutineGroup, Routine[]>();
@@ -39,33 +37,37 @@ export default function Routines() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Routines</h1>
         <p className="text-sm text-muted-foreground">
-          {routines.length} hardcoded sessions. Tap one to see the exercises and why it works.
+          {routines.length} sessions. Tap one to see the exercises and why it works.
         </p>
       </div>
 
-      {groupOrder.map((group) => {
-        const items = grouped.get(group) ?? [];
-        if (items.length === 0) return null;
-        return (
-          <section key={group} className="space-y-3">
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-              {routineGroupLabels[group]}
-            </h2>
-            <div className="space-y-2">
-              {items.map((routine) => (
-                <RoutineCard
-                  key={routine.id}
-                  routine={routine}
-                  open={openId === routine.id}
-                  onToggle={() =>
-                    setOpenId((curr) => (curr === routine.id ? null : routine.id))
-                  }
-                />
-              ))}
-            </div>
-          </section>
-        );
-      })}
+      {loading && routines.length === 0 ? (
+        <p className="text-sm text-muted-foreground">Loading routines…</p>
+      ) : (
+        groupOrder.map((group) => {
+          const items = grouped.get(group) ?? [];
+          if (items.length === 0) return null;
+          return (
+            <section key={group} className="space-y-3">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+                {routineGroupLabels[group]}
+              </h2>
+              <div className="space-y-2">
+                {items.map((routine) => (
+                  <RoutineCard
+                    key={routine.id}
+                    routine={routine}
+                    open={openId === routine.id}
+                    onToggle={() =>
+                      setOpenId((curr) => (curr === routine.id ? null : routine.id))
+                    }
+                  />
+                ))}
+              </div>
+            </section>
+          );
+        })
+      )}
     </div>
   );
 }
@@ -87,9 +89,6 @@ function RoutineCard({ routine, open, onToggle }: RoutineCardProps) {
       >
         <div className="min-w-0 flex-1 space-y-1">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-medium text-muted-foreground">
-              #{routine.number}
-            </span>
             <span className="text-sm font-semibold">{routine.name}</span>
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">

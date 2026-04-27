@@ -1,0 +1,4278 @@
+[
+  {
+    "id": "15-min-amrap-round-structure",
+    "name": "15-min AMRAP — round structure",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 900,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "2-hand-swing-emom-10-reps",
+    "name": "2-hand swing EMOM × 10 reps",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5",
+      "Round 6",
+      "Round 7",
+      "Round 8",
+      "Round 9",
+      "Round 10"
+    ]
+  },
+  {
+    "id": "90-90-active-lift-offs",
+    "name": "90/90 active lift-offs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "90-90-front-leg-internal-rotation-lift-offs",
+    "name": "90/90 — front leg internal rotation lift-offs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "90-90-passive-lift-offs",
+    "name": "90/90 passive + lift-offs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 240,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "90-90-stretch",
+    "name": "90/90 stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "90-90-transitions-no-hold",
+    "name": "90/90 transitions (no hold)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "90-90-with-torso-rotation-over-front-leg",
+    "name": "90/90 with torso rotation over front leg",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "a-skips-high-knees",
+    "name": "A-skips / high knees",
+    "category": "body_weight",
+    "body_parts": [
+      "calves",
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "back-squat",
+    "name": "Back squat",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "barbell-glute-bridge",
+    "name": "Barbell glute bridge",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "barbell-hip-thrust",
+    "name": "Barbell hip thrust",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "behind-back-towel-stretch-overhead-pull-apart",
+    "name": "Behind-back towel stretch (overhead pull-apart)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "bench-press",
+    "name": "Bench press",
+    "category": "gym",
+    "body_parts": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "bent-over-barbell-row",
+    "name": "Bent-over barbell row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "bent-over-db-row",
+    "name": "Bent-over DB row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "bodyweight-reverse-lunge",
+    "name": "Bodyweight reverse lunge",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "box-jump",
+    "name": "Box jump",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "box-jump-or-jump-squat",
+    "name": "Box jump (or jump squat)",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "bulgarian-split-squat-db",
+    "name": "Bulgarian split squat (DB)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "burpee",
+    "name": "Burpee",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "full_body"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "butterfly-with-slow-fold",
+    "name": "Butterfly with slow fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cable-bicep-curl",
+    "name": "Cable bicep curl",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "cable-chest-fly",
+    "name": "Cable chest fly",
+    "category": "gym",
+    "body_parts": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "cable-glute-kickback",
+    "name": "Cable glute kickback",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "cable-hip-abduction-standing",
+    "name": "Cable hip abduction (standing)",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "cable-pull-through",
+    "name": "Cable pull-through",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "cable-rope-face-pull",
+    "name": "Cable rope face pull",
+    "category": "gym",
+    "body_parts": [
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "cable-rope-tricep-extension",
+    "name": "Cable rope tricep extension",
+    "category": "gym",
+    "body_parts": [
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "cable-row",
+    "name": "Cable row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "cable-woodchopper",
+    "name": "Cable woodchopper",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "cat-cow",
+    "name": "Cat-cow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "childs-pose-cobra-flow",
+    "name": "Child's pose → cobra flow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "hips",
+      "lower_back",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": null
+  },
+  {
+    "id": "childs-pose-cooldown",
+    "name": "Child's pose cooldown",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "childs-pose-with-arms-extended",
+    "name": "Child's pose with arms extended",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lats",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "childs-pose-with-side-reach",
+    "name": "Child's pose with side reach",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "childs-pose-with-side-walk-reach-right-then-left",
+    "name": "Child's pose with side walk (reach right, then left)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "chin-tucks-against-wall",
+    "name": "Chin tucks (against wall)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "cobra-upward-dog-opens-anterior-chain",
+    "name": "Cobra / upward dog (opens anterior chain)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cooldown",
+    "name": "Cooldown",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cooldown-deep-squat-hold",
+    "name": "Cooldown: deep squat hold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "full_body",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cooldown-legs-up-the-wall",
+    "name": "Cooldown: legs-up-the-wall",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cooldown-walk",
+    "name": "Cooldown walk",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cooldown-walk-stretches",
+    "name": "Cooldown walk + stretches",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "cossack-squats",
+    "name": "Cossack squats",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "glutes",
+      "hips",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": null
+  },
+  {
+    "id": "couch-stretch",
+    "name": "Couch stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "couch-stretch-each-side",
+    "name": "Couch stretch each side",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "couch-stretch-kneeling-foot-on-couch-wall",
+    "name": "Couch stretch (kneeling, foot on couch/wall)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "couch-stretch-rear-shin-vertical-on-wall-couch",
+    "name": "Couch stretch (rear shin vertical on wall/couch)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "cross-body-shoulder-stretch",
+    "name": "Cross-body shoulder stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "chest",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 45,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "db-bench-press",
+    "name": "DB bench press",
+    "category": "gym",
+    "body_parts": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "db-bicep-curl",
+    "name": "DB bicep curl",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "db-lateral-raise",
+    "name": "DB lateral raise",
+    "category": "gym",
+    "body_parts": [
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "db-lateral-raise-drop-set",
+    "name": "DB lateral raise — drop set",
+    "category": "gym",
+    "body_parts": [
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "db-reverse-lunge",
+    "name": "DB reverse lunge",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "db-row",
+    "name": "DB row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "db-shoulder-press",
+    "name": "DB shoulder press",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "db-walking-lunge",
+    "name": "DB walking lunge",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "deadlift",
+    "name": "Deadlift",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 3,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "deep-butterfly-slow-forward-fold",
+    "name": "Deep butterfly + slow forward fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "deep-squat-hold",
+    "name": "Deep squat hold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "deep-squat-hold-ankle-rocks",
+    "name": "Deep squat hold + ankle rocks",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves",
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "deep-squat-hold-pulse",
+    "name": "Deep squat hold + pulse",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "ankles",
+      "core",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "deep-squat-reach-up-alternating",
+    "name": "Deep squat + reach up, alternating",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "ankles",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "deep-squat-with-knees-pressed-out",
+    "name": "Deep squat with knees pressed out",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "ankles",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "doorway-pec-stretch-low-mid-high",
+    "name": "Doorway pec stretch (low, mid, high)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "chest",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Right — low",
+      "Right — mid",
+      "Right — high",
+      "Left — low",
+      "Left — mid",
+      "Left — high"
+    ]
+  },
+  {
+    "id": "doorway-pec-stretch-mid-height",
+    "name": "Doorway pec stretch mid-height",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "chest",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "double-kb-bent-over-row",
+    "name": "Double KB bent-over row",
+    "category": "kb",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "double-kb-front-squat",
+    "name": "Double KB front squat",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "double-kb-military-press",
+    "name": "Double KB military press",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "down-dog-plank-up-dog-flow",
+    "name": "Down dog → plank → up dog flow",
+    "category": "body_weight",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": null
+  },
+  {
+    "id": "downward-dog-with-alternating-heel-drops",
+    "name": "Downward dog with alternating heel drops",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "emom-min-1-kb-swings-15",
+    "name": "EMOM Min 1 — KB swings × 15",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": "emom-min-2-goblet-squats-10",
+    "name": "EMOM Min 2 — Goblet squats × 10",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": "emom-min-3-push-press-6-side",
+    "name": "EMOM Min 3 — Push-press × 6/side",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": "emom-min-4-kb-rows-8-side",
+    "name": "EMOM Min 4 — KB rows × 8/side",
+    "category": "kb",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": "face-pull",
+    "name": "Face pull",
+    "category": "gym",
+    "body_parts": [
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "farmer-carry",
+    "name": "Farmer carry",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes"
+    ],
+    "type": "time",
+    "default_duration_sec": 40,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "foam-roller-t-spine-extensions-or-rolled-towel",
+    "name": "Foam roller T-spine extensions (or rolled towel)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": null
+  },
+  {
+    "id": "forearm-extensor-stretch-palm-down-pull-fingers-down",
+    "name": "Forearm extensor stretch (palm down, pull fingers down)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "forearms"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "forearm-flexor-stretch-palm-up-pull-fingers-back",
+    "name": "Forearm flexor stretch (palm up, pull fingers back)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "forearms"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "frog-pose",
+    "name": "Frog pose",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "frog-pose-deeper-75",
+    "name": "Frog pose (deeper — 75%)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "frog-pose-light-60",
+    "name": "Frog pose (light — 60%)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "frog-pump",
+    "name": "Frog pump",
+    "category": "body_weight",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "frog-rocks",
+    "name": "Frog rocks",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": null
+  },
+  {
+    "id": "frog-rocks-active",
+    "name": "Frog rocks (active)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": null
+  },
+  {
+    "id": "front-raise-light-db",
+    "name": "Front raise (light DB)",
+    "category": "gym",
+    "body_parts": [
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "front-squat-or-goblet-squat-heavy",
+    "name": "Front squat (or goblet squat heavy)",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "glute-activation-banded-clamshell-glute-bridge",
+    "name": "Glute activation: banded clamshell + glute bridge",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "glute-activation-monster-walk",
+    "name": "Glute activation: monster walk",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1 — Forward",
+      "Set 1 — Back",
+      "Set 2 — Forward",
+      "Set 2 — Back"
+    ]
+  },
+  {
+    "id": "glute-activation-monster-walk-clamshells",
+    "name": "Glute activation: monster walk + clamshells",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "glute-bridge-bb-or-db",
+    "name": "Glute bridge (BB or DB)",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "goblet-squat",
+    "name": "Goblet squat",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "goblet-squat-deep-paused",
+    "name": "Goblet squat (deep, paused)",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "half-pigeon-with-forward-fold",
+    "name": "Half pigeon with forward fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hip_rotators",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer curl",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "hanging-knee-raise",
+    "name": "Hanging knee raise",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging leg raise",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "happy-baby",
+    "name": "Happy baby",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "heavy-hip-thrust-contrast",
+    "name": "Heavy hip thrust (contrast)",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "high-step-up-db",
+    "name": "High step-up (DB)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "hip-abductor-machine",
+    "name": "Hip abductor machine",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "hip-abductor-machine-drop-set",
+    "name": "Hip abductor machine — drop set",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "hip-cars",
+    "name": "Hip CARs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "hip-circles-cars",
+    "name": "Hip circles / CARs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "hip-circles-cars-each-leg",
+    "name": "Hip circles (CARs) each leg",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "hip-thrust-moderate",
+    "name": "Hip thrust (moderate)",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "hollow-hold",
+    "name": "Hollow hold",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "forearms"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "inchworm-to-plank-shoulder-tap-walk-back",
+    "name": "Inchworm to plank, shoulder tap, walk back",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "full_body"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": null
+  },
+  {
+    "id": "incline-db-press",
+    "name": "Incline DB press",
+    "category": "gym",
+    "body_parts": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "jump-rope-or-jog-in-place",
+    "name": "Jump rope (or jog in place)",
+    "category": "body_weight",
+    "body_parts": [
+      "calves",
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "kb-front-rack-carry",
+    "name": "KB front-rack carry",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 40,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "kb-overhead-carry",
+    "name": "KB overhead carry",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "kb-push-press",
+    "name": "KB push-press",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "kb-russian-twist",
+    "name": "KB Russian twist",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "kb-suitcase-carry",
+    "name": "KB suitcase carry",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes"
+    ],
+    "type": "time",
+    "default_duration_sec": 40,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "kb-swing",
+    "name": "KB swing",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": "kb-swing-heavy-explosive",
+    "name": "KB swing (heavy, explosive)",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "kb-walking-lunge",
+    "name": "KB walking lunge",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Round 1 — Right",
+      "Round 1 — Left",
+      "Round 2 — Right",
+      "Round 2 — Left",
+      "Round 3 — Right",
+      "Round 3 — Left",
+      "Round 4 — Right",
+      "Round 4 — Left"
+    ]
+  },
+  {
+    "id": "kb-windmill-light",
+    "name": "KB windmill (light)",
+    "category": "kb",
+    "body_parts": [
+      "hips",
+      "obliques",
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "knee-drive-opposite-elbow",
+    "name": "Knee drive + opposite elbow",
+    "category": "body_weight",
+    "body_parts": [
+      "calves",
+      "full_body"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": null
+  },
+  {
+    "id": "kneeling-ankle-dorsiflexion-knee-past-toes",
+    "name": "Kneeling ankle dorsiflexion (knee past toes)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "kneeling-hip-flexor-stretch-rear-foot-down",
+    "name": "Kneeling hip flexor stretch (rear foot down)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "kneeling-with-shins-rotated-out-hips-back",
+    "name": "Kneeling with shins rotated out, hips back",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat pulldown",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "lat-pulldown-wide-grip",
+    "name": "Lat pulldown (wide grip)",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "lat-stretch-hold-rack-door-hips-back",
+    "name": "Lat stretch (hold rack/door, hips back)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "lats"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "leg-swings-front-back",
+    "name": "Leg swings front/back",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "leg-swings-side-to-side",
+    "name": "Leg swings side to side",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "legs-up-the-wall",
+    "name": "Legs-up-the-wall",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "legs-up-the-wall-cooldown",
+    "name": "Legs-up-the-wall cooldown",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "levator-scap-stretch-look-into-armpit",
+    "name": "Levator scap stretch (look into armpit)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "time",
+    "default_duration_sec": 45,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "light-shadow-kicks-front-round-side-all-low-mid",
+    "name": "Light shadow kicks (front, round, side — all low/mid)",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "full_body",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "lunge-with-rotation-worlds-greatest",
+    "name": "Lunge with rotation (world's greatest)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body",
+      "hips",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "lying-hamstring-curl-machine",
+    "name": "Lying hamstring curl machine",
+    "category": "gym",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain climbers",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "neck-rotations",
+    "name": "Neck rotations",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": "neck-rotations-slow",
+    "name": "Neck rotations slow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": "neck-side-bends",
+    "name": "Neck side bends",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "neck-side-bends-ear-to-shoulder-hand-gentle-overpull",
+    "name": "Neck side bends (ear to shoulder, hand gentle overpull)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "time",
+    "default_duration_sec": 45,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "overhead-triceps-stretch",
+    "name": "Overhead triceps stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "triceps"
+    ],
+    "type": "time",
+    "default_duration_sec": 45,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "pigeon-pose",
+    "name": "Pigeon pose",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "pigeon-pose-active-lift-offs",
+    "name": "Pigeon pose (active lift-offs)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "pigeon-pose-with-fold",
+    "name": "Pigeon pose with fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "category": "body_weight",
+    "body_parts": [
+      "core"
+    ],
+    "type": "time",
+    "default_duration_sec": 45,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "pnf-finisher-lie-on-back-strap-foot-contract-5s-relax-10s-deeper",
+    "name": "PNF finisher: lie on back, strap foot, contract 5s → relax 10s deeper",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 3,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "power-clean-or-db-hang-clean",
+    "name": "Power clean (or DB hang clean)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "full_body",
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 3,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "prayer-stretch-puppy-pose",
+    "name": "Prayer stretch / puppy pose",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-up",
+    "category": "body_weight",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "pull-up-assisted-machine-if-needed",
+    "name": "Pull-up (assisted machine if needed)",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "pull-up-or-inverted-row",
+    "name": "Pull-up (or inverted row)",
+    "category": "body_weight",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": "pull-up-weighted",
+    "name": "Pull-up (weighted)",
+    "category": "body_weight",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "pull-up-weighted-if-able",
+    "name": "Pull-up (weighted if able)",
+    "category": "body_weight",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "push-press",
+    "name": "Push press",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "push-up",
+    "name": "Push-up",
+    "category": "body_weight",
+    "body_parts": [
+      "chest",
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "push-up-variations-decline-standard-diamond",
+    "name": "Push-up variations (decline / standard / diamond)",
+    "category": "body_weight",
+    "body_parts": [
+      "chest",
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1 — Decline",
+      "Set 2 — Standard",
+      "Set 3 — Diamond",
+      "Set 4 — Standard"
+    ]
+  },
+  {
+    "id": "quadruped-t-spine-rotation-hand-behind-head",
+    "name": "Quadruped T-spine rotation (hand behind head)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "reverse-pec-deck-rear-delt-fly",
+    "name": "Reverse pec-deck (rear delt fly)",
+    "category": "gym",
+    "body_parts": [
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian deadlift",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "russian-twist-plate",
+    "name": "Russian twist (plate)",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "same-position-ankle-dorsiflex-loads-sciatic-nerve-gentle",
+    "name": "Same position + ankle dorsiflex (loads sciatic nerve — gentle)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated cable row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "seated-db-shoulder-press",
+    "name": "Seated DB shoulder press",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "seated-shin-box-both-sides",
+    "name": "Seated shin box (both sides)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-shin-box-flow-both-directions",
+    "name": "Seated shin box flow (both directions)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-shin-stretch-tops-of-feet",
+    "name": "Seated shin stretch (tops of feet)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "feet"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-single-leg-forward-fold",
+    "name": "Seated single-leg forward fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "seated-straddle-fold",
+    "name": "Seated straddle fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-straddle-reach-each-side",
+    "name": "Seated straddle, reach each side",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "seated-straddle-reach-forward",
+    "name": "Seated straddle, reach forward",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-straddle-with-reach",
+    "name": "Seated straddle with reach",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "seated-wide-straddle-fold",
+    "name": "Seated wide straddle fold",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "shoulder-cars",
+    "name": "Shoulder CARs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 3,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "side-lunge-stretch-low",
+    "name": "Side lunge stretch (low)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "side-lying-quad-stretch",
+    "name": "Side-lying quad stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "side-plank",
+    "name": "Side plank",
+    "category": "body_weight",
+    "body_parts": [
+      "core",
+      "obliques"
+    ],
+    "type": "time",
+    "default_duration_sec": 30,
+    "default_reps": null,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-cable-lateral-raise",
+    "name": "Single-arm cable lateral raise",
+    "category": "gym",
+    "body_parts": [
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-db-row",
+    "name": "Single-arm DB row",
+    "category": "gym",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-kb-clean-and-press",
+    "name": "Single-arm KB clean & press",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "full_body",
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-kb-press",
+    "name": "Single-arm KB press",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-kb-row",
+    "name": "Single-arm KB row",
+    "category": "kb",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "single-arm-kb-swing",
+    "name": "Single-arm KB swing",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "single-leg-rdl-db",
+    "name": "Single-leg RDL (DB)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "sled-push-or-rower-250m",
+    "name": "Sled push (or rower 250m)",
+    "category": "gym",
+    "body_parts": [
+      "full_body",
+      "glutes",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": "smith-machine-sumo-squat",
+    "name": "Smith machine sumo squat",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "standing-cable-kickback",
+    "name": "Standing cable kickback",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": "standing-forward-fold-roll-up",
+    "name": "Standing forward fold → roll up",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 3,
+    "default_segments": null
+  },
+  {
+    "id": "standing-forward-fold-slight-bend-in-knees-straighten",
+    "name": "Standing forward fold (slight bend in knees → straighten)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "standing-hamstring-stretch-foot-on-chair-bench",
+    "name": "Standing hamstring stretch — foot on chair/bench",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "standing-hip-car-big-slow-circles",
+    "name": "Standing hip CAR (big slow circles)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "standing-leg-swings-front-back-side",
+    "name": "Standing leg swings (front/back + side)",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Right — front/back",
+      "Right — side",
+      "Left — front/back",
+      "Left — side"
+    ]
+  },
+  {
+    "id": "standing-overhead-press",
+    "name": "Standing overhead press",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "standing-overhead-press-db-or-bb",
+    "name": "Standing overhead press (DB or BB)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 6,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "standing-quad-pull-grab-foot-behind-drive-knee-down",
+    "name": "Standing quad pull (grab foot behind, drive knee down)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_flexors",
+      "quads"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "standing-side-bends",
+    "name": "Standing side bends",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "lower_back",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "sumo-deadlift",
+    "name": "Sumo deadlift",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": "supine-figure-4",
+    "name": "Supine figure-4",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-figure-4-opposite-of-adductor-balance",
+    "name": "Supine figure-4 (opposite of adductor — balance)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-figure-4-pull-to-chest",
+    "name": "Supine figure-4 + pull to chest",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "glutes",
+      "hip_rotators"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-hamstring-strap-each-leg",
+    "name": "Supine hamstring (strap, each leg)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-internal-rotation-windmill-knees",
+    "name": "Supine internal rotation (windmill knees)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-single-leg-hamstring-stretch-with-strap-belt",
+    "name": "Supine single-leg hamstring stretch with strap/belt",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hamstrings",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "supine-twist",
+    "name": "Supine twist",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hips",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "thread-the-needle",
+    "name": "Thread the needle",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "thread-the-needle-shoulder-blade-opener",
+    "name": "Thread the needle (shoulder blade opener)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "toe-spread-stretch-hands-interlaced-in-toes",
+    "name": "Toe spread/stretch (hands interlaced in toes)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "feet"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "triceps-pushdown",
+    "name": "Triceps pushdown",
+    "category": "gym",
+    "body_parts": [
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "triceps-rope-pushdown",
+    "name": "Triceps rope pushdown",
+    "category": "gym",
+    "body_parts": [
+      "triceps"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 12,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "turkish-get-up",
+    "name": "Turkish get-up",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "full_body",
+      "shoulders"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 2,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "two-hand-kb-swing",
+    "name": "Two-hand KB swing",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": "upper-trap-stretch-hand-behind-back-tilt",
+    "name": "Upper trap stretch (hand behind back + tilt)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "neck"
+    ],
+    "type": "time",
+    "default_duration_sec": 60,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "walking-lunge-db-or-bb",
+    "name": "Walking lunge (DB or BB)",
+    "category": "gym",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": "wall-angels",
+    "name": "Wall angels",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "wall-calf-stretch-bent-knee-soleus",
+    "name": "Wall calf stretch — bent knee (soleus)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "wall-calf-stretch-straight-knee-gastroc",
+    "name": "Wall calf stretch — straight knee (gastroc)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "ankles",
+      "calves"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "warmup-2-hand-swing",
+    "name": "Warmup: 2-hand swing",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": "warmup-2-hand-swing-light",
+    "name": "Warmup: 2-hand swing (light)",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "hips",
+      "lower_back"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": "warmup-bike-arm-circles-band-pull-aparts",
+    "name": "Warmup: bike + arm circles + band pull-aparts",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "mid_back",
+      "rear_delts",
+      "shoulders"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-bird-dog-cat-cow",
+    "name": "Warmup: bike + bird dog + cat-cow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "lower_back",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-dynamic",
+    "name": "Warmup: bike + dynamic",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 480,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-dynamic-band-pull-aparts",
+    "name": "Warmup: bike + dynamic + band pull-aparts",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-dynamic-shoulder",
+    "name": "Warmup: bike + dynamic shoulder",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-glute-bridges",
+    "name": "Warmup: bike + glute bridges",
+    "category": "gym",
+    "body_parts": [
+      "glutes",
+      "hamstrings",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-leg-swings",
+    "name": "Warmup: bike + leg swings",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-leg-swings-cars",
+    "name": "Warmup: bike + leg swings + CARs",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 480,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-or-row",
+    "name": "Warmup: bike or row",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-or-stairmaster",
+    "name": "Warmup: bike or stairmaster",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-bike-scap-pull-ups-band-pull-aparts",
+    "name": "Warmup: bike + scap pull-ups + band pull-aparts",
+    "category": "body_weight",
+    "body_parts": [
+      "biceps",
+      "forearms",
+      "lats",
+      "mid_back",
+      "rear_delts"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-cardio-mobility",
+    "name": "Warmup: cardio + mobility",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 480,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-cossack-squats",
+    "name": "Warmup: cossack squats",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "glutes",
+      "hips",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-dead-bug-bird-dog",
+    "name": "Warmup: dead bug + bird dog",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "lower_back"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-dynamic-flow",
+    "name": "Warmup: dynamic flow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 240,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-dynamic-jump-rope",
+    "name": "Warmup: dynamic + jump rope",
+    "category": "body_weight",
+    "body_parts": [
+      "calves",
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 360,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-dynamic-leg-swings-a-skips-jump-rope",
+    "name": "Warmup: dynamic — leg swings, A-skips, jump rope",
+    "category": "body_weight",
+    "body_parts": [
+      "calves",
+      "full_body",
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-dynamic-mobility-cars-leg-swings",
+    "name": "Warmup: dynamic mobility (CARs + leg swings)",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-full-body-flow",
+    "name": "Warmup: full-body flow",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body"
+    ],
+    "type": "time",
+    "default_duration_sec": 300,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-goblet-squat",
+    "name": "Warmup: goblet squat",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 8,
+    "default_segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": "warmup-goblet-squat-light",
+    "name": "Warmup: goblet squat (light)",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": "warmup-halos-arm-bars",
+    "name": "Warmup: halos + arm bars",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-halos-goblet-squats",
+    "name": "Warmup: halos + goblet squats",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "glutes",
+      "hamstrings",
+      "quads",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-hip-cars",
+    "name": "Warmup: hip CARs",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": "warmup-jump-rope-halos",
+    "name": "Warmup: jump rope + halos",
+    "category": "kb",
+    "body_parts": [
+      "calves",
+      "core",
+      "full_body",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-kb-deadlifts-halos",
+    "name": "Warmup: KB deadlifts + halos",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower_back",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "time",
+    "default_duration_sec": 180,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-kb-halos",
+    "name": "Warmup: KB halos",
+    "category": "kb",
+    "body_parts": [
+      "core",
+      "shoulders",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": "warmup-leg-swings-front-back",
+    "name": "Warmup: leg swings front/back",
+    "category": "body_weight",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 15,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "warmup-shin-box-transitions",
+    "name": "Warmup: shin box transitions",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "hip_rotators",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 120,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "warmup-windshield-wipers",
+    "name": "Warmup: windshield wipers",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "hip_rotators",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": null
+  },
+  {
+    "id": "wide-squat-hold-elbows-pressing-knees-out",
+    "name": "Wide squat hold, elbows pressing knees out",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "adductors",
+      "glutes",
+      "hips"
+    ],
+    "type": "time",
+    "default_duration_sec": 90,
+    "default_reps": null,
+    "default_segments": null
+  },
+  {
+    "id": "windshield-wipers-lying-knees-bent",
+    "name": "Windshield wipers (lying, knees bent)",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "core",
+      "hip_rotators",
+      "obliques"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 20,
+    "default_segments": null
+  },
+  {
+    "id": "worlds-greatest-stretch",
+    "name": "World's greatest stretch",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "full_body",
+      "hips",
+      "t_spine"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 5,
+    "default_segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": "wrist-circles",
+    "name": "Wrist circles",
+    "category": "stretch_mobility",
+    "body_parts": [
+      "forearms"
+    ],
+    "type": "reps",
+    "default_duration_sec": null,
+    "default_reps": 10,
+    "default_segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  }
+]

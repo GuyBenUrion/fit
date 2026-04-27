@@ -1,19 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Clock, Play, Shuffle } from 'lucide-react';
 import { useAppStore } from '@/store/useAppStore';
-import { useRoutines } from '@/lib/useRoutines';
-import { intensityLabels, routineGroupLabels } from '@/lib/routines';
-import type { Routine } from '@/lib/types';
+import { useRoutines, useRoutinesLoading } from '@/lib/useRoutines';
+import {
+  intensityBadgeClass,
+  intensityLabels,
+  routineGroupLabels,
+} from '@/lib/routineLabels';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-
-const intensityBadgeClass: Record<Routine['intensity'], string> = {
-  deep: 'bg-destructive/10 text-destructive',
-  medium: 'bg-primary/10 text-primary',
-  light: 'bg-muted text-muted-foreground',
-  dynamic: 'bg-secondary text-secondary-foreground',
-};
 
 function pickIndex(length: number, exclude?: number): number {
   if (length <= 1) return 0;
@@ -28,10 +24,18 @@ export default function Today() {
   const user = useAppStore((s) => s.user);
   const signOut = useAppStore((s) => s.signOut);
   const routines = useRoutines();
+  const loading = useRoutinesLoading();
   const navigate = useNavigate();
 
-  const [index, setIndex] = useState(() => pickIndex(routines.length));
-  const routine = routines[index];
+  const [index, setIndex] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (index === null && routines.length > 0) {
+      setIndex(pickIndex(routines.length));
+    }
+  }, [routines.length, index]);
+
+  const routine = index !== null ? routines[index] : undefined;
 
   return (
     <div className="mx-auto max-w-2xl space-y-4">
@@ -47,7 +51,7 @@ export default function Today() {
           <div className="flex items-start justify-between gap-3">
             <div className="min-w-0 space-y-1">
               <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-                Random pick · #{routine.number} · {routineGroupLabels[routine.group]}
+                Random pick · {routineGroupLabels[routine.group]}
               </p>
               <h2 className="text-xl font-semibold">{routine.name}</h2>
               <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
@@ -68,7 +72,7 @@ export default function Today() {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => setIndex((curr) => pickIndex(routines.length, curr))}
+              onClick={() => setIndex((curr) => pickIndex(routines.length, curr ?? undefined))}
             >
               <Shuffle className="mr-1 h-3 w-3" />
               Shuffle
@@ -116,7 +120,9 @@ export default function Today() {
         </div>
       ) : (
         <div className="rounded-lg border p-6">
-          <p className="text-sm text-muted-foreground">No routines available.</p>
+          <p className="text-sm text-muted-foreground">
+            {loading ? 'Loading routines…' : 'No routines available.'}
+          </p>
         </div>
       )}
 

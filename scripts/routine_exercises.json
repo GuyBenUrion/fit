@@ -1,0 +1,4687 @@
+[
+  {
+    "id": 1,
+    "routine_id": "quick-hip-reset",
+    "order_index": 0,
+    "name": "World's greatest stretch",
+    "prescription": "5/side, slow",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 2,
+    "routine_id": "quick-hip-reset",
+    "order_index": 1,
+    "name": "90/90 transitions (no hold)",
+    "prescription": "10 switches",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 3,
+    "routine_id": "quick-hip-reset",
+    "order_index": 2,
+    "name": "Hip circles (CARs) each leg",
+    "prescription": "5 forward / 5 back",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 4,
+    "routine_id": "quick-hip-reset",
+    "order_index": 3,
+    "name": "Cossack squats",
+    "prescription": "10 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 5,
+    "routine_id": "quick-hip-reset",
+    "order_index": 4,
+    "name": "Deep squat hold + pulse",
+    "prescription": "60s",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 6,
+    "routine_id": "quick-hip-reset",
+    "order_index": 5,
+    "name": "Standing leg swings (front/back + side)",
+    "prescription": "10 each direction, each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Right — front/back",
+      "Right — side",
+      "Left — front/back",
+      "Left — side"
+    ]
+  },
+  {
+    "id": 7,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 0,
+    "name": "Warmup: shin box transitions",
+    "prescription": "2 min (slow switches)",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 8,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 1,
+    "name": "90/90 stretch — right lead",
+    "prescription": "3 min hold",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 9,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 2,
+    "name": "90/90 active lift-offs — right",
+    "prescription": "10 reps (2 sec hold each)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 10,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 3,
+    "name": "90/90 stretch — left lead",
+    "prescription": "3 min hold",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 11,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 4,
+    "name": "90/90 active lift-offs — left",
+    "prescription": "10 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 12,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 5,
+    "name": "Seated shin box (both sides)",
+    "prescription": "3 min flow",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 13,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 6,
+    "name": "Supine internal rotation (windmill knees)",
+    "prescription": "2 min each side",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 14,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 7,
+    "name": "Pigeon pose right",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 15,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 8,
+    "name": "Pigeon pose left",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 16,
+    "routine_id": "deep-90-90-focus",
+    "order_index": 9,
+    "name": "Child's pose cooldown",
+    "prescription": "1 min",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 17,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 0,
+    "name": "Cossack squats",
+    "prescription": "12 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": null
+  },
+  {
+    "id": 18,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 1,
+    "name": "Frog rocks",
+    "prescription": "15 reps (gentle)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": null
+  },
+  {
+    "id": 19,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 2,
+    "name": "Pigeon pose right (active — lift back knee 5x, then relax)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 20,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 3,
+    "name": "Pigeon pose left (active — lift back knee 5x, then relax)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 21,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 4,
+    "name": "Half pigeon with forward fold (right)",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 22,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 5,
+    "name": "Half pigeon with forward fold (left)",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 23,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 6,
+    "name": "90/90 with torso rotation over front leg",
+    "prescription": "2 min each side",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 24,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 7,
+    "name": "Deep butterfly + slow forward fold",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 25,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 8,
+    "name": "Seated straddle with reach",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 26,
+    "routine_id": "external-rotation-deep-dive",
+    "order_index": 9,
+    "name": "Happy baby",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 27,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 0,
+    "name": "Windshield wipers (lying, knees bent)",
+    "prescription": "20 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": null
+  },
+  {
+    "id": 28,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 1,
+    "name": "Seated shin box flow (both directions)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 29,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 2,
+    "name": "90/90 — front leg internal rotation lift-offs",
+    "prescription": "10 reps each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 30,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 3,
+    "name": "Kneeling with shins rotated out, hips back",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 31,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 4,
+    "name": "Supine figure-4 + pull to chest",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 32,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 5,
+    "name": "Standing hip CAR (big slow circles)",
+    "prescription": "5 each direction, each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 33,
+    "routine_id": "internal-rotation-shin-box",
+    "order_index": 6,
+    "name": "Deep squat with knees pressed out",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 34,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 0,
+    "name": "Child's pose with side reach",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 35,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 1,
+    "name": "Couch stretch (kneeling, foot on couch/wall)",
+    "prescription": "2 min each side",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 36,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 2,
+    "name": "Pigeon pose",
+    "prescription": "2 min each side",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 37,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 3,
+    "name": "Supine twist",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 38,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 4,
+    "name": "Happy baby",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 39,
+    "routine_id": "post-ride-hip-flush",
+    "order_index": 5,
+    "name": "Legs-up-the-wall",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 40,
+    "routine_id": "hamstring-ladder",
+    "order_index": 0,
+    "name": "Warmup: leg swings front/back",
+    "prescription": "15 each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 41,
+    "routine_id": "hamstring-ladder",
+    "order_index": 1,
+    "name": "Standing forward fold (slight bend in knees → straighten)",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 42,
+    "routine_id": "hamstring-ladder",
+    "order_index": 2,
+    "name": "Supine single-leg hamstring stretch with strap/belt",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 43,
+    "routine_id": "hamstring-ladder",
+    "order_index": 3,
+    "name": "Same position + ankle dorsiflex (loads sciatic nerve — gentle)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 44,
+    "routine_id": "hamstring-ladder",
+    "order_index": 4,
+    "name": "Standing hamstring stretch — foot on chair/bench",
+    "prescription": "2 min each leg",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 45,
+    "routine_id": "hamstring-ladder",
+    "order_index": 5,
+    "name": "Seated single-leg forward fold",
+    "prescription": "2 min each leg",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 46,
+    "routine_id": "hamstring-ladder",
+    "order_index": 6,
+    "name": "Seated wide straddle fold",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 47,
+    "routine_id": "hamstring-ladder",
+    "order_index": 7,
+    "name": "PNF finisher: lie on back, strap foot, contract 5s → relax 10s deeper",
+    "prescription": "3 rounds each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 3,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 48,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 0,
+    "name": "Cossack squats",
+    "prescription": "15 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": null
+  },
+  {
+    "id": 49,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 1,
+    "name": "Side lunge stretch (low)",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 50,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 2,
+    "name": "Frog pose (light — 60%)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 51,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 3,
+    "name": "Frog rocks (active)",
+    "prescription": "15 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": null
+  },
+  {
+    "id": 52,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 4,
+    "name": "Frog pose (deeper — 75%)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 53,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 5,
+    "name": "Butterfly with slow fold",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 54,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 6,
+    "name": "Wide squat hold, elbows pressing knees out",
+    "prescription": "90s",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 55,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 7,
+    "name": "Seated straddle, reach forward",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 56,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 8,
+    "name": "Seated straddle, reach each side",
+    "prescription": "90s each",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 57,
+    "routine_id": "adductor-groin-opener",
+    "order_index": 9,
+    "name": "Supine figure-4 (opposite of adductor — balance)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 58,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 0,
+    "name": "Kneeling hip flexor stretch (rear foot down)",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 59,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 1,
+    "name": "Couch stretch (rear shin vertical on wall/couch)",
+    "prescription": "2 min each side",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 60,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 2,
+    "name": "Standing quad pull (grab foot behind, drive knee down)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 61,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 3,
+    "name": "Side-lying quad stretch",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 62,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 4,
+    "name": "Child's pose with arms extended",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 63,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 5,
+    "name": "Supine figure-4",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 64,
+    "routine_id": "couch-stretch-quad-chain",
+    "order_index": 6,
+    "name": "Cobra / upward dog (opens anterior chain)",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 65,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 0,
+    "name": "Toe spread/stretch (hands interlaced in toes)",
+    "prescription": "60s each foot",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 66,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 1,
+    "name": "Downward dog with alternating heel drops",
+    "prescription": "10 each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 67,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 2,
+    "name": "Wall calf stretch — straight knee (gastroc)",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 68,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 3,
+    "name": "Wall calf stretch — bent knee (soleus)",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 69,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 4,
+    "name": "Kneeling ankle dorsiflexion (knee past toes)",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 70,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 5,
+    "name": "Deep squat hold + ankle rocks",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 71,
+    "routine_id": "calves-ankles-feet",
+    "order_index": 6,
+    "name": "Seated shin stretch (tops of feet)",
+    "prescription": "60s",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 72,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 0,
+    "name": "Warmup: cossack squats",
+    "prescription": "10 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 73,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 1,
+    "name": "Warmup: hip CARs",
+    "prescription": "5 each way, each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 74,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 2,
+    "name": "Warmup: windshield wipers",
+    "prescription": "20 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": null
+  },
+  {
+    "id": 75,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 3,
+    "name": "90/90 right — passive then 5 lift-offs",
+    "prescription": "4 min",
+    "type": "time",
+    "duration_sec": 240,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 76,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 4,
+    "name": "90/90 left — passive then 5 lift-offs",
+    "prescription": "4 min",
+    "type": "time",
+    "duration_sec": 240,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 77,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 5,
+    "name": "Pigeon right (with fold)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 78,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 6,
+    "name": "Pigeon left (with fold)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 79,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 7,
+    "name": "Frog pose",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 80,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 8,
+    "name": "Seated straddle fold",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 81,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 9,
+    "name": "Supine hamstring (strap, each leg)",
+    "prescription": "2 min each",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 82,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 10,
+    "name": "Couch stretch each side",
+    "prescription": "90s each",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 83,
+    "routine_id": "full-lower-body-evening-flow",
+    "order_index": 11,
+    "name": "Legs-up-the-wall cooldown",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 84,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 0,
+    "name": "Neck side bends (ear to shoulder, hand gentle overpull)",
+    "prescription": "45s each side",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 85,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 1,
+    "name": "Neck rotations slow",
+    "prescription": "5 each direction",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": 86,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 2,
+    "name": "Chin tucks (against wall)",
+    "prescription": "10 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 87,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 3,
+    "name": "Upper trap stretch (hand behind back + tilt)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 88,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 4,
+    "name": "Levator scap stretch (look into armpit)",
+    "prescription": "45s each side",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 89,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 5,
+    "name": "Forearm flexor stretch (palm up, pull fingers back)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 90,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 6,
+    "name": "Forearm extensor stretch (palm down, pull fingers down)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 91,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 7,
+    "name": "Wrist circles",
+    "prescription": "10 each direction",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": 92,
+    "routine_id": "moto-rider-neck-forearms",
+    "order_index": 8,
+    "name": "Thread the needle (shoulder blade opener)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 93,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 0,
+    "name": "Cat-cow",
+    "prescription": "10 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 94,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 1,
+    "name": "Thread the needle",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 95,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 2,
+    "name": "Quadruped T-spine rotation (hand behind head)",
+    "prescription": "8 each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 96,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 3,
+    "name": "Prayer stretch / puppy pose",
+    "prescription": "90s",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 97,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 4,
+    "name": "Foam roller T-spine extensions (or rolled towel)",
+    "prescription": "8 slow extensions",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": null
+  },
+  {
+    "id": 98,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 5,
+    "name": "Doorway pec stretch (low, mid, high)",
+    "prescription": "30s each, each side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Right — low",
+      "Right — mid",
+      "Right — high",
+      "Left — low",
+      "Left — mid",
+      "Left — high"
+    ]
+  },
+  {
+    "id": 99,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 6,
+    "name": "Behind-back towel stretch (overhead pull-apart)",
+    "prescription": "90s",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 100,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 7,
+    "name": "Shoulder CARs",
+    "prescription": "3 each direction, each arm",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 3,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 101,
+    "routine_id": "thoracic-shoulder-opener",
+    "order_index": 8,
+    "name": "Wall angels",
+    "prescription": "10 slow reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 102,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 0,
+    "name": "Child's pose with side walk (reach right, then left)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 103,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 1,
+    "name": "Doorway pec stretch mid-height",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 104,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 2,
+    "name": "Cross-body shoulder stretch",
+    "prescription": "45s each side",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 105,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 3,
+    "name": "Overhead triceps stretch",
+    "prescription": "45s each side",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 106,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 4,
+    "name": "Lat stretch (hold rack/door, hips back)",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 107,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 5,
+    "name": "Thread the needle",
+    "prescription": "60s each side",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 108,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 6,
+    "name": "Supine twist",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 109,
+    "routine_id": "post-lift-upper-flush",
+    "order_index": 7,
+    "name": "Neck side bends",
+    "prescription": "30s each side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 110,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 0,
+    "name": "Cat-cow",
+    "prescription": "10 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 111,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 1,
+    "name": "Child's pose → cobra flow",
+    "prescription": "8 flows",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": null
+  },
+  {
+    "id": 112,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 2,
+    "name": "Down dog → plank → up dog flow",
+    "prescription": "5 flows",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": null
+  },
+  {
+    "id": 113,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 3,
+    "name": "World's greatest stretch",
+    "prescription": "5 each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 114,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 4,
+    "name": "Hip CARs",
+    "prescription": "5 each way, each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 115,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 5,
+    "name": "Shoulder CARs",
+    "prescription": "5 each way, each arm",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 116,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 6,
+    "name": "Standing forward fold → roll up",
+    "prescription": "3 reps slow",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 3,
+    "segments": null
+  },
+  {
+    "id": 117,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 7,
+    "name": "Deep squat hold",
+    "prescription": "60s",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 118,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 8,
+    "name": "Standing side bends",
+    "prescription": "5 each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 119,
+    "routine_id": "morning-full-body-wake-up",
+    "order_index": 9,
+    "name": "Neck rotations",
+    "prescription": "5 each way",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": 120,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 0,
+    "name": "Jump rope (or jog in place)",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 121,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 1,
+    "name": "Leg swings front/back",
+    "prescription": "15 each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 122,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 2,
+    "name": "Leg swings side to side",
+    "prescription": "15 each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 123,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 3,
+    "name": "Hip circles / CARs",
+    "prescription": "5 each way, each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right — forward",
+      "Right — back",
+      "Left — forward",
+      "Left — back"
+    ]
+  },
+  {
+    "id": 124,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 4,
+    "name": "Cossack squats",
+    "prescription": "12 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": null
+  },
+  {
+    "id": 125,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 5,
+    "name": "Deep squat + reach up, alternating",
+    "prescription": "10 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": null
+  },
+  {
+    "id": 126,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 6,
+    "name": "Lunge with rotation (world's greatest)",
+    "prescription": "5 each side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 127,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 7,
+    "name": "Knee drive + opposite elbow",
+    "prescription": "20 total",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": null
+  },
+  {
+    "id": 128,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 8,
+    "name": "Inchworm to plank, shoulder tap, walk back",
+    "prescription": "5 reps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": null
+  },
+  {
+    "id": 129,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 9,
+    "name": "A-skips / high knees",
+    "prescription": "30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 130,
+    "routine_id": "pre-muay-thai-dynamic-warmup",
+    "order_index": 10,
+    "name": "Light shadow kicks (front, round, side — all low/mid)",
+    "prescription": "10 each leg",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 131,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 0,
+    "name": "Warmup: KB halos",
+    "prescription": "10 each direction",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Clockwise",
+      "Counter-clockwise"
+    ]
+  },
+  {
+    "id": 132,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 1,
+    "name": "Warmup: goblet squat (light)",
+    "prescription": "2 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": 133,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 2,
+    "name": "Two-hand KB swing",
+    "prescription": "5 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 134,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 3,
+    "name": "Goblet squat",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 135,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 4,
+    "name": "Single-arm KB clean & press",
+    "prescription": "4 sets × 6/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 136,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 5,
+    "name": "Single-arm KB row",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 137,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 6,
+    "name": "KB front-rack carry",
+    "prescription": "3 sets × 40s",
+    "type": "time",
+    "duration_sec": 40,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 138,
+    "routine_id": "kb-foundation-builder",
+    "order_index": 7,
+    "name": "Cooldown: deep squat hold",
+    "prescription": "60s",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 139,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 0,
+    "name": "Warmup: 2-hand swing",
+    "prescription": "3 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 140,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 1,
+    "name": "Warmup: goblet squat",
+    "prescription": "2 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": 141,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 2,
+    "name": "Double KB front squat",
+    "prescription": "5 sets × 5 (rest 2 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 142,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 3,
+    "name": "Double KB military press",
+    "prescription": "5 sets × 5 (rest 2 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 143,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 4,
+    "name": "Double KB bent-over row",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 144,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 5,
+    "name": "Single-arm KB swing",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 145,
+    "routine_id": "heavy-double-kb-strength",
+    "order_index": 6,
+    "name": "Turkish get-up",
+    "prescription": "3 sets × 2/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 2,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 146,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 0,
+    "name": "Warmup: halos + goblet squats",
+    "prescription": "2 min flow",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 147,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 1,
+    "name": "Warmup: 2-hand swing",
+    "prescription": "2 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": 148,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 2,
+    "name": "EMOM Min 1 — KB swings × 15",
+    "prescription": "60s window",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": 149,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 3,
+    "name": "EMOM Min 2 — Goblet squats × 10",
+    "prescription": "60s window",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": 150,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 4,
+    "name": "EMOM Min 3 — Push-press × 6/side",
+    "prescription": "60s window",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": 151,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 5,
+    "name": "EMOM Min 4 — KB rows × 8/side",
+    "prescription": "60s window",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": 152,
+    "routine_id": "kb-emom-conditioning",
+    "order_index": 6,
+    "name": "Cooldown walk + stretches",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 153,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 0,
+    "name": "Warmup: halos + arm bars",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 154,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 1,
+    "name": "Turkish get-up",
+    "prescription": "5 sets × 2/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 2,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left",
+      "Set 5 — Right",
+      "Set 5 — Left"
+    ]
+  },
+  {
+    "id": 155,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 2,
+    "name": "Single-arm KB press",
+    "prescription": "4 sets × 6/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 156,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 3,
+    "name": "KB suitcase carry",
+    "prescription": "4 sets × 40s/side",
+    "type": "time",
+    "duration_sec": 40,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 157,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 4,
+    "name": "KB overhead carry",
+    "prescription": "4 sets × 30s/side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 158,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 5,
+    "name": "KB windmill (light)",
+    "prescription": "3 sets × 5/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 159,
+    "routine_id": "kb-getup-carry-day",
+    "order_index": 6,
+    "name": "Goblet squat",
+    "prescription": "3 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 160,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 0,
+    "name": "Warmup: KB deadlifts + halos",
+    "prescription": "3 min flow",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 161,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 1,
+    "name": "Warmup: 2-hand swing (light)",
+    "prescription": "2 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2"
+    ]
+  },
+  {
+    "id": 162,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 2,
+    "name": "2-hand swing EMOM × 10 reps",
+    "prescription": "10 rounds × 10 swings",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5",
+      "Round 6",
+      "Round 7",
+      "Round 8",
+      "Round 9",
+      "Round 10"
+    ]
+  },
+  {
+    "id": 163,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 3,
+    "name": "Single-arm KB swing",
+    "prescription": "5 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left",
+      "Set 5 — Right",
+      "Set 5 — Left"
+    ]
+  },
+  {
+    "id": 164,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 4,
+    "name": "Goblet squat",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 165,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 5,
+    "name": "Hollow hold",
+    "prescription": "3 sets × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 166,
+    "routine_id": "kb-swing-conditioning",
+    "order_index": 6,
+    "name": "Cooldown: legs-up-the-wall",
+    "prescription": "2 min",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 167,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 0,
+    "name": "Warmup: jump rope + halos",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 168,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 1,
+    "name": "Goblet squat",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 169,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 2,
+    "name": "Pull-up",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 170,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 3,
+    "name": "KB push-press",
+    "prescription": "4 sets × 8/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 171,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 4,
+    "name": "Push-up",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 172,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 5,
+    "name": "Single-arm KB row",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 173,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 6,
+    "name": "Bodyweight reverse lunge",
+    "prescription": "3 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 174,
+    "routine_id": "kb-bw-strength-mix",
+    "order_index": 7,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 175,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 0,
+    "name": "Warmup: dynamic flow",
+    "prescription": "4 min",
+    "type": "time",
+    "duration_sec": 240,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 176,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 1,
+    "name": "KB swing",
+    "prescription": "4 rounds × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": 177,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 2,
+    "name": "Push-up",
+    "prescription": "4 rounds × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": 178,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 3,
+    "name": "Goblet squat",
+    "prescription": "4 rounds × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": 179,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 4,
+    "name": "Pull-up (or inverted row)",
+    "prescription": "4 rounds × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": 180,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 5,
+    "name": "KB walking lunge",
+    "prescription": "4 rounds × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Round 1 — Right",
+      "Round 1 — Left",
+      "Round 2 — Right",
+      "Round 2 — Left",
+      "Round 3 — Right",
+      "Round 3 — Left",
+      "Round 4 — Right",
+      "Round 4 — Left"
+    ]
+  },
+  {
+    "id": 181,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 6,
+    "name": "Plank",
+    "prescription": "4 rounds × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4"
+    ]
+  },
+  {
+    "id": 182,
+    "routine_id": "kb-bw-circuit",
+    "order_index": 7,
+    "name": "Cooldown",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 183,
+    "routine_id": "kb-bw-amrap-density",
+    "order_index": 0,
+    "name": "Warmup: full-body flow",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 184,
+    "routine_id": "kb-bw-amrap-density",
+    "order_index": 1,
+    "name": "15-min AMRAP — round structure",
+    "prescription": "5 KB clean & press/side, 10 burpees, 15 goblet squats. Score = total rounds + reps.",
+    "type": "time",
+    "duration_sec": 900,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 185,
+    "routine_id": "kb-bw-amrap-density",
+    "order_index": 2,
+    "name": "Cooldown walk",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 186,
+    "routine_id": "kb-bw-amrap-density",
+    "order_index": 3,
+    "name": "Couch stretch",
+    "prescription": "90s each side",
+    "type": "time",
+    "duration_sec": 90,
+    "reps": null,
+    "segments": [
+      "Right",
+      "Left"
+    ]
+  },
+  {
+    "id": 187,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 0,
+    "name": "Warmup: dead bug + bird dog",
+    "prescription": "2 min flow",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 188,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 1,
+    "name": "KB suitcase carry",
+    "prescription": "4 sets × 40s/side",
+    "type": "time",
+    "duration_sec": 40,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 189,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 2,
+    "name": "KB overhead carry",
+    "prescription": "4 sets × 30s/side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 190,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 3,
+    "name": "Push-up variations (decline / standard / diamond)",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1 — Decline",
+      "Set 2 — Standard",
+      "Set 3 — Diamond",
+      "Set 4 — Standard"
+    ]
+  },
+  {
+    "id": 191,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 4,
+    "name": "Hanging leg raise",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 192,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 5,
+    "name": "Hollow hold",
+    "prescription": "4 sets × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 193,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 6,
+    "name": "KB Russian twist",
+    "prescription": "3 sets × 20",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 194,
+    "routine_id": "kb-bw-core-carries",
+    "order_index": 7,
+    "name": "Side plank",
+    "prescription": "3 sets × 30s/side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 195,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 0,
+    "name": "Warmup: dynamic — leg swings, A-skips, jump rope",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 196,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 1,
+    "name": "KB swing (heavy, explosive)",
+    "prescription": "5 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 197,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 2,
+    "name": "Box jump (or jump squat)",
+    "prescription": "5 sets × 6 (rest 90s)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 198,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 3,
+    "name": "KB push-press",
+    "prescription": "4 sets × 6/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 199,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 4,
+    "name": "Burpee",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 200,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 5,
+    "name": "KB walking lunge",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 201,
+    "routine_id": "kb-bw-athletic-power",
+    "order_index": 6,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 202,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 0,
+    "name": "Warmup: bike or row",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 203,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 1,
+    "name": "Warmup: dynamic mobility (CARs + leg swings)",
+    "prescription": "3 min",
+    "type": "time",
+    "duration_sec": 180,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 204,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 2,
+    "name": "Back squat",
+    "prescription": "5 sets × 5 (rest 2–3 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 205,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 3,
+    "name": "Bench press",
+    "prescription": "5 sets × 5 (rest 2–3 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 206,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 4,
+    "name": "Bent-over barbell row",
+    "prescription": "5 sets × 5",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 207,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 5,
+    "name": "Romanian deadlift",
+    "prescription": "3 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 208,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 6,
+    "name": "Pull-up (weighted if able)",
+    "prescription": "3 sets × AMRAP",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 209,
+    "routine_id": "gym-compound-5x5",
+    "order_index": 7,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 210,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 0,
+    "name": "Warmup: bike + dynamic",
+    "prescription": "8 min",
+    "type": "time",
+    "duration_sec": 480,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 211,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 1,
+    "name": "Deadlift",
+    "prescription": "5 sets × 3 (rest 3 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 3,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 212,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 2,
+    "name": "Standing overhead press",
+    "prescription": "5 sets × 5",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 213,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 3,
+    "name": "Pull-up (weighted)",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 214,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 4,
+    "name": "DB bench press",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 215,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 5,
+    "name": "Barbell row",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 216,
+    "routine_id": "gym-heavy-pull-push",
+    "order_index": 6,
+    "name": "Farmer carry",
+    "prescription": "3 sets × 40s",
+    "type": "time",
+    "duration_sec": 40,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 217,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 0,
+    "name": "Warmup: cardio + mobility",
+    "prescription": "8 min",
+    "type": "time",
+    "duration_sec": 480,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 218,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 1,
+    "name": "Front squat (or goblet squat heavy)",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 219,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 2,
+    "name": "Romanian deadlift",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 220,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 3,
+    "name": "Incline DB press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 221,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 4,
+    "name": "Lat pulldown",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 222,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 5,
+    "name": "Cable row",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 223,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 6,
+    "name": "DB bicep curl",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 224,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 7,
+    "name": "Triceps pushdown",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 225,
+    "routine_id": "gym-hypertrophy-full-body",
+    "order_index": 8,
+    "name": "Hanging leg raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 226,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 0,
+    "name": "Warmup: dynamic + jump rope",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 227,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 1,
+    "name": "Power clean (or DB hang clean)",
+    "prescription": "5 sets × 3",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 3,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 228,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 2,
+    "name": "Push press",
+    "prescription": "4 sets × 5",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 229,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 3,
+    "name": "Box jump",
+    "prescription": "4 sets × 5",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 230,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 4,
+    "name": "DB row",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 231,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 5,
+    "name": "Sled push (or rower 250m)",
+    "prescription": "5 rounds (rest 90s)",
+    "type": "time",
+    "duration_sec": 60,
+    "reps": null,
+    "segments": [
+      "Round 1",
+      "Round 2",
+      "Round 3",
+      "Round 4",
+      "Round 5"
+    ]
+  },
+  {
+    "id": 232,
+    "routine_id": "gym-athletic-conditioning",
+    "order_index": 6,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 233,
+    "routine_id": "gym-lower-focus",
+    "order_index": 0,
+    "name": "Warmup: bike + leg swings + CARs",
+    "prescription": "8 min",
+    "type": "time",
+    "duration_sec": 480,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 234,
+    "routine_id": "gym-lower-focus",
+    "order_index": 1,
+    "name": "Back squat",
+    "prescription": "5 sets × 5",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 235,
+    "routine_id": "gym-lower-focus",
+    "order_index": 2,
+    "name": "Romanian deadlift",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 236,
+    "routine_id": "gym-lower-focus",
+    "order_index": 3,
+    "name": "Walking lunge (DB or BB)",
+    "prescription": "3 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 237,
+    "routine_id": "gym-lower-focus",
+    "order_index": 4,
+    "name": "Pull-up",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 238,
+    "routine_id": "gym-lower-focus",
+    "order_index": 5,
+    "name": "DB shoulder press",
+    "prescription": "3 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 239,
+    "routine_id": "gym-lower-focus",
+    "order_index": 6,
+    "name": "Hanging leg raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 240,
+    "routine_id": "gym-lower-focus",
+    "order_index": 7,
+    "name": "Glute bridge (BB or DB)",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 241,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 0,
+    "name": "Warmup: bike or stairmaster",
+    "prescription": "5 min easy",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 242,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 1,
+    "name": "Glute activation: banded clamshell + glute bridge",
+    "prescription": "2 min flow",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 243,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 2,
+    "name": "Barbell hip thrust",
+    "prescription": "5 sets × 6–8 (rest 2 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 244,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 3,
+    "name": "Bulgarian split squat (DB)",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 245,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 4,
+    "name": "Romanian deadlift",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 246,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 5,
+    "name": "Cable glute kickback",
+    "prescription": "4 sets × 12/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 247,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 6,
+    "name": "Hip abductor machine",
+    "prescription": "4 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 248,
+    "routine_id": "yael-lower-hip-thrust-strength",
+    "order_index": 7,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 249,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 0,
+    "name": "Warmup: bike + leg swings",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 250,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 1,
+    "name": "Glute activation: monster walk",
+    "prescription": "2 sets × 15 steps each direction",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1 — Forward",
+      "Set 1 — Back",
+      "Set 2 — Forward",
+      "Set 2 — Back"
+    ]
+  },
+  {
+    "id": 251,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 2,
+    "name": "Goblet squat (deep, paused)",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 252,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 3,
+    "name": "DB walking lunge",
+    "prescription": "4 sets × 12/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 253,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 4,
+    "name": "High step-up (DB)",
+    "prescription": "3 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 254,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 5,
+    "name": "Sumo deadlift",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 255,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 6,
+    "name": "Barbell glute bridge",
+    "prescription": "3 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 256,
+    "routine_id": "yael-lower-squat-lunge-volume",
+    "order_index": 7,
+    "name": "Hanging knee raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 257,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 0,
+    "name": "Warmup: bike + bird dog + cat-cow",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 258,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 1,
+    "name": "Sumo deadlift",
+    "prescription": "5 sets × 5 (rest 2 min)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 5,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4",
+      "Set 5"
+    ]
+  },
+  {
+    "id": 259,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 2,
+    "name": "Hip thrust (moderate)",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 260,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 3,
+    "name": "Single-leg RDL (DB)",
+    "prescription": "3 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 261,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 4,
+    "name": "Lying hamstring curl machine",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 262,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 5,
+    "name": "Cable pull-through",
+    "prescription": "3 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 263,
+    "routine_id": "yael-lower-posterior-chain",
+    "order_index": 6,
+    "name": "Russian twist (plate)",
+    "prescription": "3 sets × 20",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 264,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 0,
+    "name": "Warmup: bike + glute bridges",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 265,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 1,
+    "name": "Glute activation: monster walk + clamshells",
+    "prescription": "2 min flow",
+    "type": "time",
+    "duration_sec": 120,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 266,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 2,
+    "name": "Smith machine sumo squat",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 267,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 3,
+    "name": "Standing cable kickback",
+    "prescription": "4 sets × 15/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 268,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 4,
+    "name": "Cable hip abduction (standing)",
+    "prescription": "4 sets × 15/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 269,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 5,
+    "name": "DB reverse lunge",
+    "prescription": "3 sets × 12/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 270,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 6,
+    "name": "Frog pump",
+    "prescription": "3 sets × 20",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 271,
+    "routine_id": "yael-lower-glute-pump",
+    "order_index": 7,
+    "name": "Hip abductor machine — drop set",
+    "prescription": "3 sets × 20→15→10 (drop weight each)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 272,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 0,
+    "name": "Warmup: dynamic — leg swings, A-skips, jump rope",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 273,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 1,
+    "name": "Box jump",
+    "prescription": "4 sets × 6 (rest 90s)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 274,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 2,
+    "name": "Heavy hip thrust (contrast)",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 275,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 3,
+    "name": "Bulgarian split squat (DB)",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 276,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 4,
+    "name": "KB swing",
+    "prescription": "4 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 277,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 5,
+    "name": "DB walking lunge",
+    "prescription": "3 sets × 20 steps",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 278,
+    "routine_id": "yael-lower-glute-power-plyo",
+    "order_index": 6,
+    "name": "Hollow hold",
+    "prescription": "3 sets × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 279,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 0,
+    "name": "Warmup: bike + arm circles + band pull-aparts",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 280,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 1,
+    "name": "Seated DB shoulder press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 281,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 2,
+    "name": "Incline DB press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 282,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 3,
+    "name": "DB lateral raise",
+    "prescription": "4 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 283,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 4,
+    "name": "Cable chest fly",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 284,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 5,
+    "name": "Front raise (light DB)",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 285,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 6,
+    "name": "Triceps rope pushdown",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 286,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 7,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 287,
+    "routine_id": "yael-upper-shoulders-chest",
+    "order_index": 8,
+    "name": "Hanging leg raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 288,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 0,
+    "name": "Warmup: bike + scap pull-ups + band pull-aparts",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 289,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 1,
+    "name": "Lat pulldown (wide grip)",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 290,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 2,
+    "name": "Seated cable row",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 291,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 3,
+    "name": "Single-arm DB row",
+    "prescription": "4 sets × 10/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left",
+      "Set 4 — Right",
+      "Set 4 — Left"
+    ]
+  },
+  {
+    "id": 292,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 4,
+    "name": "Face pull",
+    "prescription": "4 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 293,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 5,
+    "name": "DB bicep curl",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 294,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 6,
+    "name": "Hammer curl",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 295,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 7,
+    "name": "Cable woodchopper",
+    "prescription": "3 sets × 12/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 296,
+    "routine_id": "yael-upper-back-biceps",
+    "order_index": 8,
+    "name": "Side plank",
+    "prescription": "3 sets × 30s/side",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 297,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 0,
+    "name": "Warmup: bike + dynamic shoulder",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 298,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 1,
+    "name": "DB lateral raise — drop set",
+    "prescription": "4 sets × 12→10→8 (drop each)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 299,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 2,
+    "name": "Seated DB shoulder press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 300,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 3,
+    "name": "Cable rope face pull",
+    "prescription": "4 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 301,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 4,
+    "name": "Single-arm cable lateral raise",
+    "prescription": "3 sets × 12/side",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1 — Right",
+      "Set 1 — Left",
+      "Set 2 — Right",
+      "Set 2 — Left",
+      "Set 3 — Right",
+      "Set 3 — Left"
+    ]
+  },
+  {
+    "id": 302,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 5,
+    "name": "Reverse pec-deck (rear delt fly)",
+    "prescription": "3 sets × 15",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 303,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 6,
+    "name": "Cable rope tricep extension",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 304,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 7,
+    "name": "Cable bicep curl",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 305,
+    "routine_id": "yael-upper-sculpt-volume",
+    "order_index": 8,
+    "name": "Russian twist (plate)",
+    "prescription": "3 sets × 20",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 20,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 306,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 0,
+    "name": "Warmup: bike + dynamic shoulder",
+    "prescription": "5 min",
+    "type": "time",
+    "duration_sec": 300,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 307,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 1,
+    "name": "A1: Lat pulldown",
+    "prescription": "4 sets × 10 (superset with A2)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 308,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 2,
+    "name": "A2: DB shoulder press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 309,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 3,
+    "name": "B1: Seated cable row",
+    "prescription": "4 sets × 10 (superset with B2)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 310,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 4,
+    "name": "B2: Incline DB press",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 311,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 5,
+    "name": "C1: Face pull",
+    "prescription": "3 sets × 15 (superset with C2)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 15,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 312,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 6,
+    "name": "C2: DB lateral raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 313,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 7,
+    "name": "D1: DB bicep curl",
+    "prescription": "3 sets × 12 (superset with D2)",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 314,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 8,
+    "name": "D2: Triceps pushdown",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 315,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 9,
+    "name": "Hanging knee raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 316,
+    "routine_id": "yael-upper-superset-volume",
+    "order_index": 10,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 317,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 0,
+    "name": "Warmup: bike + dynamic + band pull-aparts",
+    "prescription": "6 min",
+    "type": "time",
+    "duration_sec": 360,
+    "reps": null,
+    "segments": null
+  },
+  {
+    "id": 318,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 1,
+    "name": "Pull-up (assisted machine if needed)",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 319,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 2,
+    "name": "DB bench press",
+    "prescription": "4 sets × 8",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 8,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 320,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 3,
+    "name": "Standing overhead press (DB or BB)",
+    "prescription": "4 sets × 6",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 6,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 321,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 4,
+    "name": "Bent-over DB row",
+    "prescription": "4 sets × 10",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 10,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3",
+      "Set 4"
+    ]
+  },
+  {
+    "id": 322,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 5,
+    "name": "DB lateral raise",
+    "prescription": "3 sets × 12",
+    "type": "reps",
+    "duration_sec": null,
+    "reps": 12,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 323,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 6,
+    "name": "Plank",
+    "prescription": "3 sets × 45s",
+    "type": "time",
+    "duration_sec": 45,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 324,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 7,
+    "name": "Mountain climbers",
+    "prescription": "3 sets × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  },
+  {
+    "id": 325,
+    "routine_id": "yael-upper-strength-circuit",
+    "order_index": 8,
+    "name": "Hollow hold",
+    "prescription": "3 sets × 30s",
+    "type": "time",
+    "duration_sec": 30,
+    "reps": null,
+    "segments": [
+      "Set 1",
+      "Set 2",
+      "Set 3"
+    ]
+  }
+]

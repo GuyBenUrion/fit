@@ -14,8 +14,8 @@ import {
   intensityBadgeClass,
   intensityLabels,
   routineGroupLabels,
-} from '@/lib/routines';
-import { useRoutines } from '@/lib/useRoutines';
+} from '@/lib/routineLabels';
+import { useRoutines, useRoutinesLoading } from '@/lib/useRoutines';
 import type { Routine, RoutineGroup } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -188,6 +188,7 @@ interface BrowseViewProps {
 function BrowseView({ onStart }: BrowseViewProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const routines = useRoutines();
+  const loading = useRoutinesLoading();
 
   const grouped = useMemo(() => {
     const out = new Map<RoutineGroup, Routine[]>();
@@ -195,6 +196,17 @@ function BrowseView({ onStart }: BrowseViewProps) {
     for (const r of routines) out.get(r.group)?.push(r);
     return out;
   }, [routines]);
+
+  if (loading && routines.length === 0) {
+    return (
+      <div className="mx-auto max-w-2xl space-y-6">
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight">Exercises</h1>
+          <p className="text-sm text-muted-foreground">Loading routines…</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -252,9 +264,6 @@ function RoutineCard({ routine, open, onToggle, onStart }: RoutineCardProps) {
       >
         <div className="min-w-0 flex-1 space-y-1">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-medium text-muted-foreground">
-              #{routine.number}
-            </span>
             <span className="text-sm font-semibold">{routine.name}</span>
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
