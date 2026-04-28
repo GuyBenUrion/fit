@@ -1,13 +1,13 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Calendar, ClipboardList, Dumbbell, Home, User } from 'lucide-react';
+import { Calendar, ClipboardList, Dumbbell, Home, Star, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navItems = [
   { to: '/today', label: 'Today', icon: Home },
   { to: '/schedule', label: 'Schedule', icon: Calendar },
   { to: '/log', label: 'Log', icon: ClipboardList },
-  // { to: '/routines', label: 'Routines', icon: ListChecks },
   { to: '/exercises', label: 'Exercises', icon: Dumbbell },
+  { to: '/my-routines', label: 'My', icon: Star },
   { to: '/profile', label: 'Profile', icon: User },
 ];
 

@@ -89,7 +89,10 @@ export interface RoutineExercise {
   durationSec?: number;
   reps?: number;
   segments?: string[];
+  restSec?: number;
 }
+
+export type RoutineSource = 'catalog' | 'user';
 
 export interface Routine {
   id: string;
@@ -100,4 +103,19 @@ export interface Routine {
   whenToDo: string;
   whyItWorks: string;
   exercises: RoutineExercise[];
+  source: RoutineSource;
+  defaultRestSec?: number;
+  userId?: string;
+  notes?: string;
+}
+
+export interface Exercise {
+  id: string;
+  name: string;
+  category: ExerciseCategory;
+  bodyParts: BodyPart[];
+  type: 'reps' | 'time';
+  defaultDurationSec?: number;
+  defaultReps?: number;
+  defaultSegments?: string[];
 }

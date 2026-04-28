@@ -6,6 +6,8 @@ import Today from '@/pages/Today';
 import Schedule from '@/pages/Schedule';
 import Log from '@/pages/Log';
 import Routines from '@/pages/Routines';
+import MyRoutines from '@/pages/MyRoutines';
+import RoutineEditor from '@/pages/RoutineEditor';
 import Exercises from '@/pages/Exercises';
 import Assessment from '@/pages/Assessment';
 import Profile from '@/pages/Profile';
@@ -28,6 +30,9 @@ export default function AppRoutes() {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/log" element={<Log />} />
         <Route path="/routines" element={<Routines />} />
+        <Route path="/my-routines" element={<MyRoutines />} />
+        <Route path="/my-routines/new" element={<RoutineEditor />} />
+        <Route path="/my-routines/:id/edit" element={<RoutineEditor />} />
         <Route path="/exercises" element={<Exercises />} />
         <Route path="/assessment" element={<Assessment />} />
         <Route path="/profile" element={<Profile />} />

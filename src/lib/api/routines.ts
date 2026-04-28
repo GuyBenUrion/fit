@@ -73,6 +73,7 @@ function mapRoutine(row: RoutineRow): Routine {
     whenToDo: row.when_to_do,
     whyItWorks: row.why_it_works,
     exercises,
+    source: 'catalog',
   };
 }
 
